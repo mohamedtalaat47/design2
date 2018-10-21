@@ -1,0 +1,407 @@
+*{font-family: 'Poppins', sans-serif; padding: 0px; margin: 0px;
+}
+
+#navb{
+    border-bottom: solid 1px #ffffff33
+}
+
+#navb img{
+    
+    height: 40px
+}
+
+.navbar-light{
+    background-color: transparent!important
+}
+
+.pr-nav{
+    padding-right: 160px
+}
+
+.nav-link{
+    color: white !important
+}
+
+.navicons li{
+   display: inline-block;
+   padding-top: 5px
+}
+
+
+#home{
+    
+    background-image: url(../img/bg-image-28.jpg);
+    height: 750px;
+    background-attachment: scroll;
+    background-size: cover;
+    text-align: center
+    
+}
+
+.overlay{
+    height: 750px;
+    background-color: #1f1f1f8c
+}
+
+ .overlay2 {
+    height: 650px;
+    background-color: #1f1f1fc7
+}
+
+
+#home h1{
+    color: white;
+    font-size: 94px;
+    font-weight: bolder ;
+    padding-top: 190px
+}
+
+
+#home p{
+    color: white;
+    padding: 20px
+}
+
+.btn-color1{
+    padding: 10 20 10 20;
+    background-color: #00c3da;
+    color: white;
+    font-weight: 600
+}
+
+.btn-color2{
+    padding: 10 20 10 20;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    border: solid 1px white
+}
+
+#secondhome{
+    
+    background-image: url(..//img/bg-image-29.jpg);
+     background-attachment: scroll;
+    background-size: cover;
+    height: 750px;
+    text-align: center
+}
+
+
+#secondhome h1{
+    color: white;
+    font-size: 94px;
+    font-weight: bolder ;
+    padding-top: 190px
+}
+
+
+#secondhome p{
+    color: white;
+    padding: 20px
+}
+
+#secondpanel{
+    height: 400px;
+    text-align: center
+}
+
+#secondpanel h6{
+    font-size: 14px;
+    padding-top: 90px;
+    font-weight: bold
+}
+
+#secondpanel p{
+    padding-top: 30px;
+    width: 60%;
+    margin: auto;
+    color: gray;
+    font-size: 22px;
+    padding-bottom: 26px
+    
+}
+
+.btn-color3{
+     padding: 15 20 15 20;
+    background-color: transparent;
+    color: black;
+    font-weight: 200;
+    font-size: 12;
+    border: solid 1px black;
+    border-radius: 0px;
+}
+
+#thirdpanel{
+    height: 600px;
+    border-bottom: solid 1px #d4d2d2;
+    border-top: solid 1px #d4d2d2;
+    overflow: hidden
+    
+}
+
+.tabsedit{
+    padding-top: 120px;
+    width: 70%;
+    margin: auto;
+    color: darkgray
+}
+
+.nav-linktabs{
+    color: black !important;
+    background-color: transparent !important;
+    padding: 8px
+    
+}
+
+.nav-link.active{
+    color: black !important;
+    background-color: transparent !important;
+    border-bottom: solid 1px black ;
+    border-radius: 0px
+    
+}
+
+
+.thirdphoto{
+    height: 100%;
+    width: 1000px
+}
+
+#fourthpanel{
+    height: 600px;
+    overflow: hidden;
+    
+    
+}
+
+#fourthpanel h2{
+    margin: auto;
+    font-weight: bolder;
+    text-align: center;
+    padding: 50 0 6 0;
+    font-size: 40px;
+}
+
+#fourthpanel p{
+    text-align: center;
+    color: gray;
+    padding-bottom: 40px
+}
+
+#fourthpanel img{
+    position: relative;
+    overflow: hidden
+}
+
+.imgcaption{
+    
+    width: 90%; 
+	height:70%; 
+	position: absolute;
+	background-color: rgba(0, 195, 218, 0.9); 
+	z-index: 999;
+	top: 0; 
+	overflow: hidden;
+    transition: 0.4s;
+    opacity: 0;
+    color: white !important
+    
+}
+        
+.imgcaption:hover{
+    width: 90%; 
+	height:100%; 
+	position: absolute;
+	background-color: rgba(0, 195, 218, 0.9); 
+	z-index: 999;
+	top: 0; 
+	overflow: hidden;
+    opacity: 1;
+     color: white !important
+    
+}
+
+.imgcaption p{
+    color: white !important;
+    text-align: left !important;
+    font-size: 10px !important
+}
+
+
+.imgcaption h6{
+    padding-top: 220px
+}
+
+#fifthpanel{
+    height: 650px;
+    background-image: url(../img/bg-image-26.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white
+}
+
+.py-50{
+    padding: 150 0 150 0
+}
+
+.fifthinfo h1{
+    font-weight: 900
+}
+
+.fifthinfo p{
+    width: 78%
+}
+
+.fifthlist ul{
+    display: inline-block;
+    
+    padding-top: 20px
+}
+
+
+.fifthlist li{
+    list-style: none;
+    padding-bottom: 15px
+}
+
+.nav-pills .nav-link{
+    text-align: center;
+    color: black !important
+}
+
+.ulcenter{
+    text-align: center !important;
+    margin-left: 500px !important
+}
+
+.siximgcaption{
+    background-color: white;
+    position: absolute;
+    height: 150px;
+    width: 60%;
+    bottom: 10;
+    margin: auto;
+    left: 20%;
+    text-align: center;
+    padding: 30px;
+    opacity: 0;
+    transition: 0.6s
+}
+
+.siximgcaption:hover{
+    background-color: white;
+    position: absolute;
+    height: 150px;
+    width: 60%;
+    bottom: 10;
+    margin: auto;
+    left: 20%;
+    text-align: center;
+    padding: 30px;
+    opacity: 1
+    
+}
+
+
+.sixpanel{
+    position: relative
+}
+
+#sevenpanel{
+    background-color: #eee;
+    height: 500px;
+    
+}
+
+#sevenpanel h1{
+    font-weight: 900;
+    padding-top: 30px;
+    text-align: center
+}
+
+
+#sevenpanel p{
+    color: gray
+}
+#sevenpanel h4{
+    color: gray;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 14px
+}
+
+#sevenpanel h2{
+    padding-left: 10px
+}
+
+
+#eightpanel{
+    height: 280px;
+    background-color: #1f1f1f;
+    color: white
+}
+
+.iconcolor{
+    color: #00c3da
+}
+
+#eightpanel h1{
+    font-weight: 900;
+    padding-top: 20px
+}
+
+.counter {
+  
+  font-weight: 900;
+    padding-top: 20px
+
+}
+
+#ninepanel{
+    background-color:  #eee;
+    height: 600px
+}
+
+.feedbackbox{
+    background-color: white;
+    margin: auto;
+    margin-top: 100px;
+    height: 350px;
+    width: 70%;
+    text-align: center;
+    border-radius: 15px;
+        box-shadow: 3px 3px 3px darkgray;
+
+}
+
+.feedbackbox h3{
+    padding: 60 0 20 0;
+}
+
+.feedbackbox p{
+    color: gray;
+    width: 70%;
+    margin: auto;
+    padding-top: 20px
+}
+
+.feedbackbox img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top: -60px
+}
+
+
+#footer{
+    height: 350px;
+    background-image: url(../img/dotted-map.png);
+    background-size: cover
+ 
+}
+
+.overlay3 {
+    height: 350px;
+    background-color: #edededa1;
+}
